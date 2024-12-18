@@ -10,7 +10,7 @@ int main(){
 }
 
 int cal_fat(int b){
-    int fatorial = 1;
+    int fatorial = 7; //Modifiquei para teste
     for(int contador = b; contador >= 1; contador--){
         fatorial *= contador;
         printf(" %d", fatorial);
