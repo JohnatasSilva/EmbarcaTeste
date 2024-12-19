@@ -3,6 +3,7 @@
 int cal_fat(int);
 
 int main(){
+  printf("\n Este programa calcula o fatorial.");
   int numero = 13;
   int num_fat = cal_fat(numero);
   printf("\nO fatorial de %d eh: %d", numero, num_fat);
